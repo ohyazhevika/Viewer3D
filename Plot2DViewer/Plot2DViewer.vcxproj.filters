@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\House">
+      <UniqueIdentifier>{1ea06e05-c4d5-4131-9e3b-bc4950359839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Pyramid">
+      <UniqueIdentifier>{79e06731-e046-47e5-a24f-188f787b03cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Testing">
+      <UniqueIdentifier>{dacbb14b-3424-4c8b-a787-60f6acd874ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Viewer3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineTransform3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C_string_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="HouseFaces.txt">
+      <Filter>Resource Files\House</Filter>
+    </Text>
+    <Text Include="HouseInvisibleEdges.txt">
+      <Filter>Resource Files\House</Filter>
+    </Text>
+    <Text Include="HouseVertices.txt">
+      <Filter>Resource Files\House</Filter>
+    </Text>
+    <Text Include="PyramidVertices.txt">
+      <Filter>Resource Files\Pyramid</Filter>
+    </Text>
+    <Text Include="PyramidInvisibleEdges.txt">
+      <Filter>Resource Files\Pyramid</Filter>
+    </Text>
+    <Text Include="PyramidFaces.txt">
+      <Filter>Resource Files\Pyramid</Filter>
+    </Text>
+    <Text Include="MatrixOutput.txt">
+      <Filter>Resource Files\Testing</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
